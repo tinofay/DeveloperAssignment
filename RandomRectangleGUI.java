@@ -1,4 +1,4 @@
-package com.assignment.tino
+package com.assignment.tino;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,7 +28,7 @@ public class RandomRectangleGUI{
 
 		frame.getContentPane().add(BorderLayout.PAGE_START, colorButton);
 		frame.getContentPane().add(BorderLayout.PAGE_END, sizeButton);
-		frame.getContentPane().add(BorderLayout.CENTER, drawPanel);
+		frame.getContentPane().add(BorderLayout.CENTER, rectDrawPanel);
 		frame.setSize(500,500);
 		frame.setVisible(true);
 	}
